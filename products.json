@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Strawberry Guava",
+    "price": 15.6,
+    "image": "guava.jpg",
+    "type": "Fruit",
+    "quantity_available": 10,
+    "information": "Strawberry guava (Psidium cattleianum), also known as waiawī in Hawaii, is a small tree that was introduced to the islands in 1825 from Brazil. It is an invasive species that can cause significant damage to Hawaii's forests and increase the number of fruit fly pests. Strawberry guava can form thickets that block shade, making it difficult for other species to coexist. It can also tolerate shade and heavy leaf litter, and may produce chemicals in its leaves that prevent other plants from growing. In some areas, strawberry guava has already reduced groundwater recharge by 85 million gallons per day.",
+    "scientificname": "Psidium cattleianum"
+  },
+  {
+    "name": "Succulent",
+    "price": 8.99,
+    "image": "succulent.jpg",
+    "type": "Ornamental",
+    "quantity_available": 25,
+    "information": "Succulent plants, also known as succulents, have thick, fleshy parts that store water in arid climates or soil conditions. The word succulent comes from the Latin word sucus, meaning 'juice' or 'sap'.",
+    "scientificname": "Succulentus"
+  },
+  {
+    "name": "Hibiscus",
+    "price": 15,
+    "image": "hibiscus.jpg",
+    "type": "Flower",
+    "quantity_available": 10,
+    "information": "Hawaii has seven native hibiscus species, including the yellow hibiscus, Hibiscus clayi, and Hibiscus waimeae. The yellow hibiscus is the state flower of Hawaii. The Chinese hibiscus and its hybrids are the most common non-native hibiscus grown in the Hawaiian Islands, though the native Hibiscus arnottianus is sometimes planted.",
+    "scientificname": "Hibiscus rosa-sinesis"
+  },
+  {
+    "name": "Orchid",
+    "price": 21.99,
+    "image": "orchid.jpg",
+    "type": "Flower",
+    "quantity_available": 14,
+    "information": "Hawaii has three native orchids: the jewel orchid (Anoetochilus sandvicensis), the twayblade orchid (Liparis hawaiensis), and Platanthera holochila. You can find these orchids in the wild at Hawaii Volcanoes National Park or in the wet forests on the east side of the island. You can also find native orchids at Akatsuka Orchid Gardens, which is located near Hawaii Volcanoes National Park.",
+    "scientificname": "Orchidaceae"
+  },
+  {
+    "name": "Monstera",
+    "price": 32,
+    "image": "monstera.jpg",
+    "type": "Ornamental",
+    "quantity_available": 7,
+    "information": "Monstera deliciosa, the Swiss cheese plant or split-leaf philodendron is a species of flowering plant native to tropical forests of southern Mexico, south to Panama. It has been introduced to many tropical areas, and has become a mildly invasive species in Hawaii, Seychelles, Ascension Island and the Society Islands.",
+    "scientificname": "Monstera deliciosa"
+  },
+  {
+    "name": "Tomato",
+    "price": 9.79,
+    "image": "tomato.jpg",
+    "type": "Fruit",
+    "quantity_available": 16,
+    "information": "Tomatoes (Solanum lycopersicum) are related to wild tomatoes that originated in the Andean region of South America, including Peru, Ecuador, Chile, and Colombia. The Aztecs grew tomatoes in Mesoamerica, and early Spanish explorers spread them to Europe. The fruit's small size and domestication center are thought to have been in Mexico.",
+    "scientificname": "Solanum lycopersicum"
+  },
+  {
+    "name": "Cucumber",
+    "price": 12.85,
+    "image": "cucumber.jpg",
+    "type": "Fruit",
+    "quantity_available": 12,
+    "information": "Cucumbers, Cucumis sativus, are native to the Indian subcontinent, including India, Nepal, Bangladesh, China, and Northern Thailand. They are part of the Cucurbitaceae family, which also includes melons and squash.",
+    "scientificname": "Cucumis sativus"
+  },
+  {
+    "name": "Lilikoi",
+    "price": 12.29,
+    "image": "lilikoi.jpg",
+    "type": "Fruit",
+    "quantity_available": 5,
+    "information": "Lilikoi, also known as passion fruit, is native to Brazil, Paraguay, and Argentina, but was first introduced to Hawaii from Australia in 1923. The yellow variety of passion fruit is believed to be native to Australia, while the purple passion fruit originates from Brazil",
+    "scientificname": "Passiflora edulis"
+  },
+  {
+    "name": "Philodendron",
+    "price": 7.49,
+    "image": "philodendron.jpg",
+    "type": "Ornamental",
+    "quantity_available": 12,
+    "information": "Philodendron hederaceum, also known as Philodendron scandens, is a vigorous vine native to Mexico, the West Indies, and South America. It is a common houseplant that can be found naturalized on Kauai, Maui, and Hawaii, and possibly Oahu. It is thought to be native to Paraguay and southeastern Brazil, and is usually grown in full sun.",
+    "scientificname": "Philodendron fragantissimum"
+  },
+  {
+    "name": "Arrowhead",
+    "price": 8.27,
+    "image": "arrowhead.jpg",
+    "type": "Ornamental",
+    "quantity_available": 16,
+    "information": "The arrowhead plant, Syngonium podophyllum, is native to Latin America, and has been naturalized in Hawaii. It's also found in Florida, Texas, the West Indies, South Africa, Australia, Singapore, Malaysia, China, and several Pacific islands.",
+    "scientificname": "Syngonium podophyllum"
+  },
+  {
+    "name": "Soil, 50lbs",
+    "price": 33.99,
+    "image": "soil.jpg",
+    "type": "Materials",
+    "quantity_available": 35,
+    "information": "Locally sourced soil from Waimanalo farms. Filled with nutrients such as nitrogen, potassium and magnesium to boost growth, flowering and crop yields."
+  },
+  {
+    "name": "Pot",
+    "price": 3.69,
+    "image": "pot.jpg",
+    "type": "Materials",
+    "quantity_available": 104,
+    "information": "Standard 1 gallon clay pot."
+  }
+]
