@@ -1,6 +1,10 @@
 // get the query string into a easy to use object
 const params = (new URL(document.location)).searchParams;
 
+if(!params.has('email')) {
+  window.location.href = 'login.html';
+} 
+
 let quantities = [];
 // check if the query string has quantities, parse it and convert elements to numbers
 if (params.has('quantities')) {
@@ -83,3 +87,5 @@ function display_invoice() {
 
 
 }
+
+

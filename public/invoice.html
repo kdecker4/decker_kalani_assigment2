@@ -3,6 +3,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const params = new URLSearchParams(window.location.search);
+      const username = decodeURIComponent(params.get('username')); // Retrieve username from query parameter
+      const address = decodeURIComponent(params.get('address')); // Retrieve address from query parameter
+      const zip = decodeURIComponent(params.get('zip')); // Retrieve zip code from query parameter
+      const state =  decodeURIComponent(params.get('state'));
+  
+      // Display username
+      if (username) {
+          document.getElementById('username').textContent = decodeURIComponent(username);
+      }
+      if (address) {
+        document.getElementById('address').textContent = decodeURIComponent(address);
+    }
+    if (zip) {
+        document.getElementById('zip').textContent = zip;  // ZIP codes do not need URL decoding
+    }
+    if (state) {
+        document.getElementById('state').textContent = state;  // ZIP codes do not need URL decoding
+    }
+  });
+  </script>
+  
+
 <head>
 
   <meta charset="UTF-8">
@@ -72,7 +97,10 @@
   Subtotals over $100 will be charged 5% of the subtotal amount.
 </b></div>
 </h4>
-<h6>Thank you for shopping with us, Mahalo!</h6>
+<h6>Thank you, <span id="username"></span>, for shopping with us, Mahalo!</h6>
+
+<h6>Product will be shipped to: </h6><br><h6>Address: <span id="address"></span>, ZIP Code: <span id="zip"></span>, State: <span id="state"></span></h6>
+
 </body>
 <h2><button onclick="window.location.href='store.html'" class="w3-button w3-green">Back to Storefront</button></h2>
 
